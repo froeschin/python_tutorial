@@ -23,7 +23,7 @@ for runde in range(9):
     
     if runde % 2 == 0:
         spielfeld[int(zelle)] = "x"
-    if runde % 2 != 0:
+    else:
         spielfeld[int(zelle)] = "o"
     
     spielfeld_anzeigen()
